@@ -26,7 +26,7 @@ localhost/Pemetaan-Tempat-KKN-Sederhana/login.php
 ```
 
 Note:
-Nama folder bisa diganti sesui yang diinginkan
+Nama folder bisa diganti sesuai yang diinginkan
 
 
 
