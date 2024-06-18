@@ -25,6 +25,9 @@ git clone https://github.com/Wann88/Pemetaan-Tempat-KKN-Sederhana.git
 localhost/Pemetaan-Tempat-KKN-Sederhana/login.php
 ```
 
+Note:
+Nama folder bisa diganti sesui yang diinginkan
+
 
 
    [dill]: <https://github.com/joemccann/dillinger>
