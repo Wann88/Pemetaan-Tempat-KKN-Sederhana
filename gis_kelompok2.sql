@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Waktu pembuatan: 17 Jun 2024 pada 13.46
+-- Waktu pembuatan: 18 Jun 2024 pada 04.47
 -- Versi server: 8.0.30
 -- Versi PHP: 8.1.10
 
@@ -42,11 +42,11 @@ CREATE TABLE `tb_desa` (
 --
 
 INSERT INTO `tb_desa` (`id_desa`, `lokasi`, `keterangan`, `lat`, `lng`, `kelompok`, `anggota`) VALUES
-(1, 'Desa Karang Bintang', '...', -3.371557, 115.881943, '1', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald'),
-(2, 'Desa Sari Gadung', '...', -3.351184, 115.972092, '2', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald'),
-(3, 'Batu Licin', '...', -3.476781, 115.952698, '3', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald'),
-(4, 'Angsana', '...', -3.683823, 115.599907, '4', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald'),
-(5, 'Pagatan', '...', -3.607848, 115.923256, '5', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald');
+(1, 'Desa Pandan Sari, Kec.Karang bintang', '...', -3.359367, 115.852844, '1', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald'),
+(2, 'Desa Sari Gadung, Kec.Simpang Empat', '...', -3.396450, 115.977692, '2', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald'),
+(3, 'Desa Sidomulyo, Kec. Mantewe', '...', -3.285930, 115.839188, '3', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald'),
+(4, 'Desa Karang Rejo, Kec. Karang Bintang', '...', -3.399153, 115.826248, '4', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald'),
+(5, 'Desa Manunggal, Kec. Karang Bintang', '...', -3.336813, 115.928055, '5', '(1)Wanda,(2)Muhammad Malik Akba, (3)Elza Ilham Adi Pratama,(4)Muhammad Anugerah Mufti,(5)⁠Trimuldiyanto Wijaya ,(6)Muhammad Rizqi Rizald');
 
 -- --------------------------------------------------------
 
