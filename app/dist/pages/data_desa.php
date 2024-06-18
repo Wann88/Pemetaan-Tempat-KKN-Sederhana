@@ -27,7 +27,7 @@
                                                 <th>Keterangan</th>
                                                 <th>Kelompok</th>
                                                 <th>Anggota</th>
-                                                <th>latitude</th>
+                                                <th>Latitude</th>
                                                 <th>Logitude</th>
                                             </tr>
                                         </thead>
@@ -93,11 +93,11 @@
                 <input name="keterangan" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">lat</label>
+                <label for="exampleInputPassword1" class="form-label">Latitude</label>
                 <input name="lat" type="text" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">lng</label>
+                <label for="exampleInputPassword1" class="form-label">Longitude</label>
                 <input name="lng" type="text" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="mb-3">

@@ -23,7 +23,7 @@
                                                 <th>Keterangan</th>
                                                 <th>Kelompok</th>
                                                 <th>Anggota</th>
-                                                <th>latitude</th>
+                                                <th>Latitude</th>
                                                 <th>Longitude</th>
                                             </tr>
                                         </thead>
