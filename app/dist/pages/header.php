@@ -27,5 +27,7 @@
         <script src="@@path/vendor/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </head> <!--end::Head--> <!--begin::Body-->
 <style>
-        #map { height: 600px; }
+        #map { height: 600px; 
+                border-radius: 10px;
+        }
 </style>

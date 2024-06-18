@@ -120,11 +120,11 @@
         };
 
         const overlays = {
-            'Karang Bintang': desa1,
-            'Sari Gadung': desa2,
-            'Batu Licin': desa3,
-            'Pagatan': desa4,
-            'Angsana': desa5,
+            'Desa Pandan Sari': desa1,
+            'Desa Sari Gadung': desa2,
+            'Desa Sidomulyo': desa3,
+            'Desa Karang Rejo': desa4,
+            'Desa Manunggal': desa5,
             'kabupaten':kabupaten
         };
 
