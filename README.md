@@ -20,6 +20,13 @@ git clone https://github.com/Wann88/Pemetaan-Tempat-KKN-Sederhana.git
 
 2.Import Database ke mysql dengan nama gis_kelompok2.
 
+3.Cara masuk ke menu admin
+```sh
+localhost/Pemetaan-Tempat-KKN-Sederhana/login.php
+```
+
+Note:
+Nama folder bisa diganti sesuai yang diinginkan
 
 
 
