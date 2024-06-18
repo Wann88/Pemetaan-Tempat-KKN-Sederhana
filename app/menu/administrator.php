@@ -17,7 +17,7 @@
                                         <p>Kantor</p>
                                     </a> </li>
                                 <li class="nav-item"> <a href="index.php?page=desa" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>Tambah Desa</p>
+                                        <p>Pendataan Tempat KKN</p>
                                     </a> </li>
                                 <li class="nav-item"> <a href="index.php?page=map-kepala" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
                                         <p>Map</p>
