@@ -60,7 +60,14 @@ include('header.php'); ?>
                 include('map_kepala.php'); 
                 
             }
-            
+            else if($_GET['page']=='cetak'){
+                include('ceta/cetak_data.php'); 
+                
+            }
+            else if($_GET['page']=='cetak1'){
+                include('ceta/cetak_desa.php'); 
+                
+            }
             else{
                 include('not_found.php');
             }
