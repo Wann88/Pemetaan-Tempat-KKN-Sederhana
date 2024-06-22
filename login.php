@@ -37,7 +37,7 @@ if(isset($_GET['error'])){
 <body class="login-page bg-body-secondary">
     <div class="login-box">
         <div class="card card-outline card-primary">
-            <div class="card-header"> <a href="../index2.html" class="link-dark text-center link-offset-2 link-opacity-100 link-opacity-50-hover">
+            <div class="card-header"> <a href="index.php" class="link-dark text-center link-offset-2 link-opacity-100 link-opacity-50-hover">
                     <h1 class="mb-0"> <b>WEB</b>GIS
                     </h1>
                 </a> </div>

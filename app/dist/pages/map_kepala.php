@@ -80,7 +80,7 @@ const overlays = {
     'Desa Sidomulyo': desa3,
     'Desa Karang Rejo': desa4,
     'Desa Manunggal': desa5,
-    'kabupaten':kabupaten
+    'Kabupaten':kabupaten
 };
 
 
