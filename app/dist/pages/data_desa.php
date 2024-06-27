@@ -18,6 +18,7 @@
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tambah">
                                     Tambah data
                                     </button>
+                                    <a href="cetak/cetak_desa.php?page=cetak1" style="text-decoration:none" class="btn btn-danger">Laporan</a>
                                     <br></br>
                                     <table class="table table-bordered">
                                         <thead>

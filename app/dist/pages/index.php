@@ -61,11 +61,11 @@ include('header.php'); ?>
                 
             }
             else if($_GET['page']=='cetak'){
-                include('ceta/cetak_data.php'); 
+                include('cetak/cetak_data.php'); 
                 
             }
             else if($_GET['page']=='cetak1'){
-                include('ceta/cetak_desa.php'); 
+                include('cetak/cetak_desa.php'); 
                 
             }
             else{

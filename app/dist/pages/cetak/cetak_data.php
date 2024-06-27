@@ -10,6 +10,14 @@
         .td{
             width: 15%;
         }
+        .ttd {
+            bottom: 0;
+            right: 0;
+            text-align: center;
+            background-color: #ffffff; /* Tambahan untuk latar belakang putih */
+            padding-left: 400px; /* Tambahan untuk memberikan padding */
+            padding-top: 30px;
+        }
     </style>
 </head>
 <body>
@@ -32,8 +40,19 @@
             <?php }?>
             
     </table>
+    <div class="ttd">
+        <?php 
+            $query = mysqli_query($koneksi,"SELECT * FROM tb_pengguna WHERE role='kepala'");
+            while($pgn = mysqli_fetch_array($query)){
+        ?>
+        <p>Banjarmasin,<br/><br/><br></p>
+        <p><b>____________</b></p>
+        <p><b><?php echo $pgn['nama'];  ?></b></p>
+        <p><b><?php echo $pgn['role'];  ?></b></p>
+        <?php }?>
+    </div>
     <script>
-       window.print();
+     window.print();
     </script>
 </body>
 </html>

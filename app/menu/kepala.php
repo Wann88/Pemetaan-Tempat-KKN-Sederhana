@@ -2,7 +2,7 @@
                     <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="menu" data-accordion="false">
                         <li class="nav-item"> <a href="index.php?page=dashboard" class="nav-link"> <i class="nav-icon bi bi-clipboard"></i>
                                     <p>
-                                        Dashboard
+                                        Halaman Utama
                                     </p>
                                 </a>
                             </li>
@@ -13,16 +13,13 @@
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
-                                <li class="nav-item"> <a href="index.php?page=kantor" class="nav-link "> <i class="nav-icon bi bi-circle"></i>
+                                <li class="nav-item"> <a href="index.php?page=kantor" class="nav-link "> <i class="nav-icon bi bi-building"></i>
                                         <p>Kantor</p>
                                     </a> </li>
-                                <li class="nav-item"> <a href="index.php?page=data-desa" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
+                                <li class="nav-item"> <a href="index.php?page=data-desa" class="nav-link"> <i class="nav-icon bi bi-clipboard2-data-fill"></i>
                                         <p>Data Desa</p>
                                     </a> </li>
-                                <li class="nav-item"> <a href="index.php?page=laporan" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
-                                        <p>laporan</p>
-                                    </a> </li>
-                                <li class="nav-item"> <a href="index.php?page=map-kepala" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
+                                <li class="nav-item"> <a href="index.php?page=map-kepala" class="nav-link"> <i class="nav-icon bi bi-geo-alt-fill"></i>
                                         <p>Map</p>
                                     </a> </li>
                             </ul>

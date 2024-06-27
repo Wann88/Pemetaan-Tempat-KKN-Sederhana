@@ -15,10 +15,7 @@
                                     <h3 class="card-title">Kantor</h3>
                                 </div> <!-- /.card-header -->
                                 <div class="card-body">
-                                <button type="button" class="btn btn-danger  " data-bs-toggle="modal" data-bs-target="#cetak"><a href="cetak/cetak_data.php?page=cetak" style="color:white">
-                                    Laporan
-                                    </a>
-                                    </button>
+                                    <a href="cetak/cetak_data.php?page=cetak" style="text-decoration:none" class="btn btn-danger">Laporan</a>
                                     <br></br>
                                     <table class="table table-bordered">
                                         <thead>

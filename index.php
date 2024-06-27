@@ -50,7 +50,7 @@
 <div class="card text-center border-primary">
   <div class="card-body ">
     <h5 class="card-title">Selamat Datang</h5>
-    <p class="card-text">Di Pemetaan Tempat KKN Di Kabupaten tanah Bumbu Berbasih Website.</p>
+    <p class="card-text">Di Pemetaan Tempat KKN Di Kabupaten Tanah Bumbu Berbasis Website.</p>
     <a href="Map.php" class="btn btn-primary">Map</a>
   </div>
 </div>

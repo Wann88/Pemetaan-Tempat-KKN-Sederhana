@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en"> <!--begin::Head-->
-
+<style>
+    a:Laporan {
+      text-decoration: none;
+    }
+</style>
 
 <body class="layout-fixed sidebar-expand-lg bg-body-tertiary"> <!--begin::App Wrapper-->
     
@@ -18,6 +22,7 @@
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tambah">
                                     Tambah data
                                     </button>
+                                    <a href="cetak/cetak_data.php" style="text-decoration:none" class="btn btn-danger">Laporan</a>
                                     <br></br>
                                     <table class="table table-bordered">
                                         <thead>
@@ -101,8 +106,8 @@
                     </select>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keluar</button>
+                    <button type="submit" class="btn btn-primary">Tambah</button>
                 </div>
         </div>
     </form> 

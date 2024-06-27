@@ -15,10 +15,7 @@
                                     <h3 class="card-title">Data Desa</h3>
                                 </div> <!-- /.card-header -->
                                 <div class="card-body">
-                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#cetak"><a href="cetak/cetak_desa.php?page=cetak1" style="color:white">
-                                    Laporan
-                                    </a>
-                                    </button>
+                                    <a href="cetak/cetak_desa.php?page=cetak1" style="text-decoration:none" class="btn btn-danger">Laporan</a>
                                     <br></br>
                                     <table class="table table-bordered">
                                         <thead>
