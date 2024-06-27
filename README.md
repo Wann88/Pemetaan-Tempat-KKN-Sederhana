@@ -25,6 +25,17 @@ git clone https://github.com/Wann88/Pemetaan-Tempat-KKN-Sederhana.git
 localhost/Pemetaan-Tempat-KKN-Sederhana/login.php
 ```
 
+```sh
+Administrator:
+username : wanda
+password :123
+```
+```sh
+Kepala:
+username : elza
+password :123
+```
+
 Note:
 Nama folder bisa diganti sesuai yang diinginkan
 
