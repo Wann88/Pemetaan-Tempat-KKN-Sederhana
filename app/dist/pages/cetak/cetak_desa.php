@@ -48,14 +48,14 @@
         
     </table>
     <div class="ttd">
-    <?php 
+        <?php 
             $query = mysqli_query($koneksi,"SELECT * FROM tb_pengguna WHERE role='kepala'");
             while($pgn = mysqli_fetch_array($query)){
-            ?>
-        <p>Banjarmasin,<br/><br/><br></p>
-        <p><b>____________</b></p>
-        <p><b><?php echo $pgn['nama'];  ?></b></p>
-        <p><b><?php echo $pgn['role'];  ?></b></p>
+        ?>
+        <p><?php echo $pgn['role'];  ?>,<br/><br/><br></p>
+        
+        <p><b><?php echo $pgn['nama']; ?></b></p>
+        <p><b>NPM : ..........</b></p>
         <?php }?>
     </div>
     <script>

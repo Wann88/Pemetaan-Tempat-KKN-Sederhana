@@ -46,7 +46,7 @@ function popUp(f,l){
 
 const map = L.map('map', {
 	center: [-3.368816103275391, 115.57002349589494],
-	zoom: 9,
+	zoom: 8,
 	layers: [googleSat, desa1,kabupaten]
 });
 
