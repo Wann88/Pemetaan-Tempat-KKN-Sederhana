@@ -110,8 +110,8 @@
                 <input name="anggota" type="text" class="form-control" id="exampleInputPassword1">
             </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Keluar</button>
+                    <button type="submit" class="btn btn-primary">Tamabah</button>
                 </div>
         </div>
     </form> 
@@ -127,8 +127,25 @@
 
 <script>
     function hapus_desa(data_id){
-        alert('Berhasil dihapus');
-        window.location=("delete/hapus_desa.php?id="+data_id);
+        Swal.fire({
+            title: 'Apa Kamu Yakin?',
+            text: "Kamu tidak bisa mengembalikan lagi!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Ya, Hapus!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire(
+                    'Hapus!',
+                    'File Kamu telah di hapus.',
+                    'Berhasil'
+                ).then(() => {
+                    window.location = "delete/hapus_desa.php?id=" + data_id;
+                });
+            }
+        });
         
             
     }

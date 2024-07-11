@@ -123,8 +123,25 @@
 
 <script>
     function hapus_data(data_id){
-        alert('Berhasil dihapus');
-        window.location=("delete/hapus_data.php?id="+data_id);
+        Swal.fire({
+            title: 'Apa Kamu Yakin?',
+            text: "Kamu tidak bisa mengembalikan lagi!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Ya, Hapus!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire(
+                    'Hapus!',
+                    'File Kamu telah di hapus.',
+                    'Berhasil'
+                ).then(() => {
+                    window.location = "delete/hapus_data.php?id=" + data_id;
+                });
+            }
+        });
         
             
     }
